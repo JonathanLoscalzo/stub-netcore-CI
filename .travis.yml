@@ -5,4 +5,4 @@ dist: trusty
 solution: Golgen.sln
 script:
  - dotnet restore
- - dotnet run test Library.Test/Library.Test.csproj
+ - dotnet test Library.Test/Library.Test.csproj
