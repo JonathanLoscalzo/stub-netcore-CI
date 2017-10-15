@@ -1,0 +1,8 @@
+language: csharp
+mono: none
+dotnet: 2.0.0
+dist: trusty
+solution: Golgen.sln
+script:
+ - dotnet restore
+ - dotnet run test Library.Test/Library.Test.csproj
